@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             accessibilityEnabled = Settings.Secure.getInt(
                     mContext.getApplicationContext().getContentResolver(),
                     android.provider.Settings.Secure.ACCESSIBILITY_ENABLED);
-            Log.v(TAG, "accessibilityEnabled = " + accessibilityEnabled);
+            Log.v(TAG, "accessibilityEnabled ffff= " + accessibilityEnabled);
         } catch (Settings.SettingNotFoundException e) {
             Log.e(TAG, "Error finding setting, default accessibility to not found: "
                     + e.getMessage());
