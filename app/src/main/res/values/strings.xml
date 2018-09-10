@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AccessibilityService</string>
+    <string name="services_reading">ZaneServices</string>
+    <string name="services_click">模拟点击豪</string>
+</resources>
